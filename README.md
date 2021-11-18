@@ -2,4 +2,4 @@
 
 Website Template for Project 5
 
-I changed the color scheme to green instead of red as my custom change
+For my "customization", I changed the color scheme to green instead of red and removed the linkedin section since I wasnt going to use it 
