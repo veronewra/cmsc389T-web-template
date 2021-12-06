@@ -26,6 +26,16 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: git pull
+      - name: Clone
+      - run: cd /afs/glue.umd.edu/home/glue/v/e/veronik/pub
+      - run: git clone git@github.com:veronewra/veronewra.github.io.git
+      
+      - name: Pull
+      - run: cd /afs/glue.umd.edu/home/glue/v/e/veronik/pub/veronewra.github.io
+      - run: git pull
+      
+      - name: Delete
+      - run: cd /afs/glue.umd.edu/home/glue/v/e/veronik/pub
+      - run: rm -r -f veronewra.github.io/
+      
 
