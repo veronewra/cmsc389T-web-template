@@ -23,8 +23,9 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs commands using the runners shell
-      - name: Clone
-      - run: cd /afs/glue.umd.edu/home/glue/v/e/veronik/pub
-      - run: git clone git@github.com:veronewra/veronewra.github.io.git
+      - name: cd
+        run: cd /afs/glue.umd.edu/home/glue/v/e/veronik/pub
+      - name: clone
+        run: git clone git@github.com:veronewra/veronewra.github.io.git
       
       
